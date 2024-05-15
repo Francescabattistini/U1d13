@@ -17,3 +17,10 @@ form.addEventListener("submit", function (event) {
   // Invia il modulo
   this.submit();
 });
+
+/* const button = document.querySelector("#addButton");
+
+button.addEventListener("click", function () {
+  alert("Hai cliccato sul pulsante!");
+});
+ */
