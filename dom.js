@@ -6,6 +6,5 @@
   console.log(document.body);
 }
 richiamaIlBottone();  */ //chiama la funzione
-const taskImput = (ev) => {
-  console.log(ev.target.value);
-};
+const form = document.getElementById("inputContainer");
+console.log(form);
