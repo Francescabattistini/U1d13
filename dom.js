@@ -6,5 +6,14 @@
   console.log(document.body);
 }
 richiamaIlBottone();  */ //chiama la funzione
+/* const form = document.getElementById("inputContainer");
+console.log(form); */
 const form = document.getElementById("inputContainer");
-console.log(form);
+
+form.addEventListener("submit", function (event) {
+  // Impedisce il comportamento predefinito del modulo di inviare i dati al server
+  event.preventDefault();
+
+  // Invia il modulo
+  this.submit();
+});
